@@ -1,5 +1,5 @@
 docx2txt>=0.8
-Flask>=2.2.2
+Flask>=2.2.5
 Flask-PyMongo>=2.3.0
 google-auth>=2.16.0
 google-auth-oauthlib>=0.8.0
@@ -7,3 +7,7 @@ PyMuPDF>=1.21.1
 scikit-learn>=1.2.0
 spacy==3.5.0
 spacy-transformers==1.2.2
+jinja2>=3.1.4 # not directly required, pinned by Snyk to avoid a vulnerability
+pymongo>=4.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
+rsa>=4.7 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=2.2.3 # not directly required, pinned by Snyk to avoid a vulnerability
